@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <style type="text/css">
+        h3 {
+        color:green;  
+        }
+        h2 {
+        color:red;  
+        }
+        body {
+        color:blue;  
+        background-color:pink;
+        }
+        h4{
+        color:cyan;
+        }
+        table {
+        color:solid-blue;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+                <table border="red" align="center">
+                    <tr>
+                        <td>
+                            <h2>Welcome To Real Heroes</h2>
+                        </td>
+                    </tr>
+                </table>
+        </header>
+        <h3>
+         <center><u>★ Team of Real Heroes ★</u></center>
+        </h3>
+      
+                
+               
+                
+            </section>
+            <h4>Our Real Heroes</h4>
+            <table border="1px">
+                <th>
+                Name of the Team Real Heroes
+                </th>
+                <tr>
+                    <td> Avinash Mahato</td>
+                </tr>
+                <tr>
+                    <td>Nil Kamal Mahato</td>
+                </tr>
+                <tr>
+                 <td>Ashish Kumar</td>
+                </tr>
+                <tr>
+                    <td>Arun Verma</td>
+                </tr>
+                <tr>
+                    <td>Badal Patel</td>
+                </tr>
+                <tr>
+                    <td>Amritanshu Keshri</td>
+                </tr>
+                <tr>
+                    <td>Shyam Kumar Soni</td>
+                </tr>
+                <tr>
+                    <td>Krishna Gupta</td>
+                </tr>
+                
+            </table><br />
+            <button type="button" onclick="myamr(0)">Team of Real Heroes </button>
+            <button type="button" onclick="myamr(1)">Admin of Real Heroes</button    ><br><br>
+            
+            <script type="text/javascript">
+            function myamr (pram)
+            {
+            var pic;
+            if (pram == 0)
+            pic="https://i.imgflip.com/4qa4w3.jpg";
+            else
+            pic="https://i.imgflip.com/4qa60g.jpg";
+            document.getElementById ("aimg").src=pic;
+            }
+            </script>
+            <img id="aimg" src="" height="410px" width="295px" border="30px solid blue">
+            </img>
+    </body>
+</html>
